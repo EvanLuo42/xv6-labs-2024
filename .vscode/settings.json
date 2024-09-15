@@ -4,5 +4,13 @@
         "types.h": "c",
         "user.h": "c"
     },
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "files.exclude": {
+        "**/*.asm": true,
+        "**/*.d": true,
+        "**/*.o": true,
+        "**/*.out": true,
+        "**/*.sym": true,
+        "user/_*": true
+    }
 }
